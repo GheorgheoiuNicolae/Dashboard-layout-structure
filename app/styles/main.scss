@@ -1,0 +1,55 @@
+// bower:scss
+// endbower
+@import "bower_components/materialize/sass/materialize.scss";
+
+@import "variables.scss";
+@import "_navbar.scss";
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.app-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.module-wrap {
+  position: fixed;
+  top: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eee;
+  >.row {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0
+  }
+}
+aside.module-sidebar {
+  position: absolute;
+  height: 100%;
+  background-color: red;
+  overflow: scroll;
+  &.col {
+    padding: 0;
+  }
+}
+section.module-content {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
+}
+.collection {
+  margin: 0;
+}

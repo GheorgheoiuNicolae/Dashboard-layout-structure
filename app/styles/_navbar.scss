@@ -1,0 +1,13 @@
+.top-bar {
+  background-color: $topbarShade1;
+  height: 40px;
+  color: #fff;
+  .row {
+    margin-bottom: 0;
+  }
+  .btn, .btn-flat {
+    padding: 0 1rem;
+    height: 40px;
+    color: #fff;
+  }
+}

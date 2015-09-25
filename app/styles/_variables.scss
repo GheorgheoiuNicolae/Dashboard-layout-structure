@@ -1,0 +1,36 @@
+// Here we'll keep the variables for the Alcedo7 theme
+
+
+
+
+// Defining the colors used in the theme
+$orange: #f9a01b;
+
+$blue: #00aeef;
+$blueLight: #a2def9;
+
+$greyDarker: #333333;
+$greyDark: #565453;
+$greyLight: #827e7e;
+$greyLighter: #a5a2a1;
+
+
+
+
+
+
+
+// Asigning those colors to elements for semantic reasons and to easily define new themes.
+
+// 1. Element States
+$selected: $blue;
+$highlight: $blueLight;
+$edit: $orange;
+
+
+// 2. Topbar
+$topbarShade1: $greyDarker;
+$topbarShade2: $greyDark;
+$topbarShade3: $greyLight;
+$topbarShade4: $greyLighter;
+
